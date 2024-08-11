@@ -1,0 +1,63 @@
+<!-- AIzaSyC7Cv1C42Vi9TmfyYjBLR-92u6RQCNQMSY -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7Cv1C42Vi9TmfyYjBLR-92u6RQCNQMSY&callback=initMap&v=weekly"
+    defer
+  ></script>
+</head>
+<body>
+    <label>
+        Latitude: <span id="lat"></span>
+    </label>
+
+    <br>
+
+    <label>
+        Longitude: <span id="lon"></span>
+    </label>
+
+    <div id="map" style="width:300px; height:300px; " ></div>
+
+    <script type="text/javascript">
+        var lat;
+        var lon;
+
+        function getLocation(){
+            if(!navigator.geolocation)
+                return null;
+            navigator.geolocation.getCurrentPosition((pos) =>{
+                lat = document.getElementById("lat").innerText = pos.coords.latitude;
+                lon = document.getElementById("lon").innerText = pos.coords.longitude;
+                initMap();
+            })
+        }
+
+        function initMap() {
+            const uluru = { lat: lat, lng: lon }
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 17,
+    center: uluru
+  });
+
+  const marker = new google.maps.Marker({
+    position: uluru,
+    map: map,
+  });
+
+
+}
+
+window.initMap = initMap;
+
+        getLocation()
+
+    </script>
+    
+</body>
+</html>

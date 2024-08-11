@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+:root {
+  --prin-1: #FDC6EA;
+  --prin-2: #EB90CD;
+  --hover:  #f5abe2;
+  --text:  #F585D1;
+  --white:#fff;
+  --dark:#000;
+}
+
+
+
+
+body{
+ background-color: var(--prin-1);
+}
+
+body p{
+  font-family: 'Roboto', sans-serif;
+}
+
+.lading{
+  border-bottom: 2px solid #fff;
+  height: auto;
+  background-image: url(../images/Circulos--bg-.png);
+  background-repeat: no-repeat;
+  background-position: 70vw -15vh;
+  background-size: 500px ;
+}
+
+.navbar-brand img{
+  height: 100px;
+}
+
+
+.navbar-nav{
+  width: 60%;
+  justify-content: space-between;
+  
+}
+
+.navbar-collapse{
+  justify-content: end;
+}
+
+
+.nav-item-item{
+  font-size: 1.1rem;
+  font-family: 'Roboto', sans-serif;
+ color:var(--dark);
+  text-decoration: none;
+text-transform: uppercase;
+  font-weight: 400;
+}
+
+.nav-item-item:hover{
+ color: var(--hover);
+}
+
+
+.lading-text h1{
+  font-size: 2.3rem;
+  font-family: 'Raleway', sans-serif;
+  color: var(--text);
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 900;
+  
+}
+
+.lading-text p{
+  color: var(--dark);
+    
+    margin-bottom: 40px;
+    
+}
+
+.lading-text a{
+  background: var(--text);
+  font-weight: 800;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  border-radius: 50px;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  animation: moving 1.5s ease-in-out forwards;}
+
+.lading-text a:hover{
+  background-color: var(--hover);
+  font-weight: 800;
+  color: var(--white);
+  
+}
+
+.nosso-text h1{
+  font-size: 2.3rem;
+  font-family: 'Raleway', sans-serif;
+  color: var(--text);
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 900;
+  
+}
+
+.nosso-text p{
+  color: var(--dark);
+
+    margin-bottom: 40px;
+    
+}
+
+.nosso-text a{
+  background: var(--text);
+  font-weight: 800;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  border-radius: 50px;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  animation: moving 1.5s ease-in-out forwards;}
+
+.nosso-text a:hover{
+  background-color: var(--hover);
+  font-weight: 800;
+  color: var(--white);
+  
+}
+
+
+
+.lading-img img{
+  height: 80vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  animation: hoteis 1.5s ease-in-out forwards;
+}
+
+
+.nosso-img img{
+  height: 60vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.title{
+  font-size: 2.3rem;
+  font-family: 'Raleway', sans-serif;
+  color: var(--text);
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-align: center;
+}
+
+.mission-item{
+  margin: 0 40px;
+}
+
+.container-violencia{
+ background-color: var(--prin-2);
+ border-radius: 40px;
+ padding: 20px 0;
+ margin-bottom: 30px;
+}
+
+.container-violencia h3{
+  font-size: 2.3rem;
+  font-family: 'Raleway', sans-serif;
+ color:  var(--prin-1);
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 900;
+
+ }
+ 
+ 
+
+.violencia-tipo{
+  background-color:var(--prin-1);
+  margin: 0 80px;
+  border-radius: 25px;
+}
+
+.tipo-img img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tipo-text h3{
+  color: var(--prin-2);
+}
+
+/* card usuario */
+
+.feedback{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+margin-bottom: 40px;
+}
+
+section{
+  position: relative;  
+  width: 1075px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+.swiper{
+  width: 950px;
+  height: 360px;
+  align-self: center;
+}
+
+.card{
+  position: relative;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.card::before{
+  content: "";
+  position: absolute;
+  height: 32%;
+  width: 100%;
+  background: var(--prin-2);
+  border-radius: 20px 20px 0 0;
+}
+
+.card .card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  position: relative;
+}
+
+section .card .image{
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  padding: 3px;
+  background: var(--prin-1);
+}
+
+section .card .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+
+}
+
+
+.card .name-profession{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px 0 20px;
+} 
+
+.name-profession .name{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+.name-profession .profession{
+  font-size:15px;
+  font-weight: 400;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.swiper-button-next, .swiper-button-prev{
+  transition: all 0.3s ease;
+}
+
+
+.contentBx{
+position: relative;
+margin: 10px 20px;
+border-radius: 30px;
+border: 3px solid var(--white);
+transition: .8s;
+}
+
+.contentBx .label{
+  position: relative;
+  padding: 20px;
+  background-color: var(--prin-2);
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  color: var(--white);
+  transition: .8s;
+  border-radius: 30px;
+}
+
+.contentBx .label::before{
+  content: '+';
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 1.5rem;
+  transition: .8s;
+}
+
+.contentBx.active .label::before{
+  content: '-';
+  transition: .8s;
+}
+
+.contentBx.active .label {
+  border-radius: 30px 30px 0px 0px;
+  transition: .8s;
+}
+
+.contentBx .content{
+  position: relative;
+  background-color: #fff;
+  height: 0;
+  overflow: hidden;
+  border-radius: 0px 0px 25px 25px;
+  transition: .8s;
+}
+
+.contentBx.active .content{
+  height: auto;
+  padding: 20px 10px 10px;
+  align-self: center;
+  transition: .8s;
+}
+
+
+
+@media(max-width:700px ){
+
+  
+  .lading-img, .nosso-img{
+    display: none;
+  }
+ 
+  .lading{
+    border-bottom: none}
+  
+  body{
+    text-align: center;
+    width: 100%;
+  }
+
+.violencia-tipo h3{
+  font-size: 1.6rem;
+  margin-top: 10px;
+}
+
+
+.navbar-brand img{
+  height: 70px;
+}
+
+.feed{
+ display: none;
+}
+
+.container-violencia .violencia-tipo{
+width: 90%;
+margin: 0 auto;
+}
+
+}

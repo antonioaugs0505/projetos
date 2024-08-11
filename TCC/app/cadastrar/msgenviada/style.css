@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body{
+    background: #F585D1;
+}
+
+figure{
+    background-color: #C63596;
+    border-radius: 0px 0px 20px 20px;
+    
+}
+
+
+
+.text h3{
+    font-family: 'Montserrat';
+font-weight: 400;
+font-size: 2rem;
+text-align: center;
+margin-top: 180px;
+margin-bottom: 50px;
+
+}
+
+.barra{
+    border-radius: 30px;
+    border: 2px solid  #C63596;
+}
+
+.ajuda{
+    text-decoration: none;
+    padding: 15px 25px;
+    margin: 30px 40px;
+    background-color: #C63596;
+    border-radius: 30px;
+    border: 2px solid  #fff;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.entrar:hover, .cad:hover{
+    color: #F585D1;
+}
+
+.menu{
+    background-color: #fff;
+    height: 70px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.menu a{
+    color: #F585D1;
+    font-size: 1.6rem;
+
+}
+
+.menu a span{
+    color: #C63596;
+}
+
+.ajuda:hover{
+    color: #F585D1;
+}
+
+.back{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.back i{
+    font-size: 4rem;
+    color: #fff;
+   
+}
+
+.back i:hover{
+    
+    color: #C63596;
+}
+
+.map{
+    width: 100%;
+    height: 50vh;
+background-color: #fff;}

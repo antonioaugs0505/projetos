@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.navbar-brand img{
+  height: 60px;
+}
+
+.container{
+  margin: 0px 30px;
+} 
+
+.navbar-nav{
+  width: 60%;
+  justify-content: space-between;
+  
+}
+
+.navbar-collapse{
+  justify-content: end;
+}
+
+
+.nav-item-item{
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+ color: #fff;
+  text-decoration: none;
+}
+
+.nav-item-item:hover{
+ color: #ff9419;
+}
+
+
+.bg-lad{
+  background-image: -webkit-linear-gradient(40deg, #212529 40%, #525355 60%);
+}
+
+.carousel-inner{
+  max-height: 85vh;
+}
+
+.carousel-item{
+  height: 100%;
+}
+
+
+.carousel-item-2 img{
+  width: 88%;
+  height: 80%;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.row-text{
+  text-align: center;
+}
+
+
+.row-text h1{
+  font-size: 2.3rem;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: rgb(0, 0, 0) 0px 0 10px;
+  color: #ff9419;
+  margin-bottom: 15px;
+}
+
+.row-text h4{
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+}
+
+.row-text .link-adq{
+  background-color: #ff9419;
+  font-weight: 800;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  border-radius: 50px;
+  border:  2px solid #fff;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.row-text .link-adq:hover{
+  background-color: #212529;
+  font-weight: 800;
+  color: #ff9419;
+  border:  2px solid #ff9419;
+}
+
+.container-cards{
+padding: 30px;
+background-color: #212529;
+}
+
+.card-text{
+  margin: 0 auto;
+  width: 85%;
+
+}
+
+.card-h2{
+  font-size: 3.8rem;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-weight:lighter;
+}
+
+.card-p{
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+
+.card-item{
+  max-width: 90vw;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card-img-top{
+  border-radius: 20px 20px 0px 0px ;
+  max-width: 100%;
+  height: 55vh;
+-moz-transition: all 0.3s;
+-webkit-transition: all 0.3s;
+transition: all 0.3s;
+}
+.card-img-top:hover{
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.card-body .card-title{
+margin-top: 10px;
+}
+
+.card-body .link-smais{
+  margin-top: 25px;
+  background-color: #ff9419;
+  font-weight: 800;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  border-radius: 50px;
+  border:  2px solid #fff;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.card-body .link-smais:hover{
+  background-color: #ffffff;
+  font-weight: 800;
+  color: #ff9419;
+  border:  2px solid #ff9419;
+}
+
+.container-sobre{
+  padding-bottom: 30px;
+  background-image: url(../images/14df43_75dfcd9072c946a89a64e867d2f87bcf_mv2.jpg);
+  background-repeat: no-repeat;
+  background-position-y:50% ;
+  background-size: cover;
+  background-clip: border-box; 
+}
+
+.container-sobre h2{
+padding:20px 15px 15px 15px;
+}
+
+.container-sobre p{
+  padding:5px 15px 5px 15px;
+  }
+  
+
+.menu-logo{
+ width: 70%;
+ margin: 0 auto;
+ justify-content: space-between;
+ text-decoration: none;
+ list-style: none;
+ margin-top: 30px;
+}
+
+
+.logo-item{
+  width: 128px;
+  height: 128px;
+  
+}
+
+.container-form{
+  padding: 30px;
+  background-color: #212529;
+  color: #fff;
+}
+
+.form-text {
+  color: #fff;
+  align-items: center;
+}
+
+.link-envio{
+  background-color: #ff9419;
+  font-weight: 800;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  border-radius: 50px;
+  border:  2px solid #fff;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.link-envio:hover{
+  background-color: #212529;
+  font-weight: 800;
+  color: #ff9419;
+  border:  2px solid #ff9419;
+}
+
+.footer{
+  flex-wrap: wrap;
+  justify-content: space-between;
+background-color: #525355;
+align-items: center;
+padding: 10px 70px;
+text-align: center;
+}
+
+.redes-sociais {
+  align-items: center;
+  width: 64px;
+  text-align: center;
+}
+
+.redes-sociais-item{
+  color: #fff;
+font-size: 32px;
+padding: 10px;
+}
+
+.redes-sociais-item:hover{
+  color: #ff9419;
+}
+
+@media(max-width:700px ){
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.redes-sociais{
+  justify-content: space-around;
+  width: 100%;
+text-align: center;
+
+}
+
+}
+
+
+

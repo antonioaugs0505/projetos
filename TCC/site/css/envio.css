@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+div{
+    background-image: -webkit-linear-gradient(40deg, #212529 20%, #525355 80%);
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+}
+
+div img{
+    width: 300px;
+    margin: 0 auto;
+}

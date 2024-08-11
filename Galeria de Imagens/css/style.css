@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.galeria {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.img-slide {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+}
+
+figure p {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    transform-origin: left top ;
+    transition: all 0.5s;
+    font-size: 18px ;
+    padding: 0px 10px;
+}
+
+.img1 {background-image: url(../images/image1.jpg);
+}
+.img2 {background-image: url(../images/image2.jpg);
+}
+.img3 {background-image: url(../images/image3.jpg);
+}
+.img4 {background-image: url(../images/image4.jpg);
+}
+.img5 {background-image: url(../images/image5.jpg);
+}
+
+.img {
+    flex: 1 ;
+    height: 80vh;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    margin: 0 2px;
+    transform: skew(0deg);
+    position: relative;
+    transition: all 0.5s;
+    
+}
+
+.img-slide:hover .img {
+    transform: skew(100);
+}
+
+.img:hover {
+    flex: 5;
+}
+
+figure:hover p {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #11111193;
+    transform: rotate(0deg);
+    padding: 10px;
+}

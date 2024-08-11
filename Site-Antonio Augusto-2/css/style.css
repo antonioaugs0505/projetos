@@ -1,0 +1,852 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
+
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000000;
+}
+
+
+.logo {
+    padding-top: 15px;
+    width: 50%;
+    height: auto;
+    margin: 0 auto 30px auto;
+    display: flex;
+    background-color: transparent;}
+
+.menu__principal{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-self: center;
+    background-color: rgba(0, 0, 0, 0.801);}
+
+.topic{
+    display: flex;
+    align-items: center;}
+
+.menu__principal ul{
+   width: 100%;
+   height: auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   align-self: center;
+   list-style: none;}
+
+.menu__principal li {
+    margin: 0 15px;}
+
+.menu__principal img{
+    padding-top: 5px ;
+    padding-bottom: 5px;
+    width: 64px;
+    height: 64px;}
+
+.menu__item {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Nova Round', cursive;
+    font-size: 24px;
+    font-weight: 600; }
+
+.menu__item:hover {
+    color: #ebd61f;
+}
+
+/* fim header principal */
+
+ /* -- seção de conteúdo 1 -- */
+.container {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+
+}
+
+/* TEXTO + LINK */
+
+/* INICIO LINHA 1*/
+
+.firstline{
+    margin-top: 15px;}
+
+.linha1{ 
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 35px;}
+    
+.line1{
+    width: 30vw;
+    height: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 170px;}
+
+.line2{
+    width: 30vw;
+    height: auto;
+    margin-left:25px;
+    margin-right:25px;
+}
+
+.line3{
+    width: 30vw;
+    height: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 170px;}
+
+    /*FIM LINHA 1  */
+
+    /* INICIO LINHA 2 */
+
+.line4{
+    width: 30vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;}
+
+
+/* FIM LINHA 2 */
+
+/* INICIO LINHA 3 */
+
+.linha3{ 
+   width: 100%;
+   height: auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 35px;
+}
+
+
+.line5{
+    width: 30vw;
+    height: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 120px;}
+
+.line6{
+    width: 30vw;
+    height: auto;
+    margin-left: 25px;
+    margin-right: 25px;}
+
+.line7{
+    width: 30vw;
+    height: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 130px;}
+
+    /* FIM LINHA 3 */
+
+
+.line_text{
+    color: #ffffff;
+    text-shadow: 0px 0px 30px #0026ff;
+    font-family: 'Mate SC', serif;
+    font-size: 28px;
+    line-height: 36px;
+    align-items: center;
+    text-align: center;}
+
+.principal_text{
+    color: #00acee;
+    text-shadow: #0026ff 0px 0px 30px;
+    font-family: 'Nova Round', cursive;
+    font-size: 36px;
+    line-height: 36px;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;}
+    
+/* -- fim seção de conteúdo 1 -- */
+
+
+/* CARDS*/
+
+.card__container{
+    align-items: center;
+    display: flex;
+    color: #fff;
+    justify-content: space-evenly;
+    padding-top: 20px;}
+
+
+    .tri_inicio {
+        width: 100%;
+        height: 10vh;
+        padding: 20px ;
+    }
+    
+    .tri_inicio h2{width: 100%;
+        font-family: 'Nova Round', cursive;
+        font-size: 56px;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        color: #ebd61f;
+    }
+
+
+
+.card{
+    border: 1px solid #ebd61f ;
+    width: 31%;
+    height: 75vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#00000093;
+}
+
+.card_img{
+    width: 256px;
+height: 256px; 
+margin-bottom: 12px;
+}
+ .prequel {
+    width: 272px;
+height: 272px; 
+}
+
+.card_titulo{
+    color: #ebd61f;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: 'Nova Round', cursive;
+}
+
+.card_paragrafo{
+    width: 80%;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card_link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Mate SC', serif;
+    border: 1px solid #bcc71d;
+    padding: 15px 50px;
+}
+
+.card_link:hover{
+    background-color: #ebd61f;}
+/* Fim Cards */
+
+/* GALERIA */
+
+
+
+
+.jedi_inicio {
+    width: 100%;
+    height: 10vh;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.jedi_inicio h2{width: 100%;
+    font-family: 'Nova Round', cursive;
+    font-size: 45px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    color: #73e3f1;
+    padding-top: 10px;
+}
+
+.jedi_inicio p{font-family: 'Mate SC', serif;
+    font-size: 22px;
+    color: #c6f2f8;
+    display: flex;
+   text-align: center;
+}
+
+.jedi{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.jedi1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 20px;
+  margin-bottom: 47px;
+  padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.kenobi{
+    width: 50%;
+    height: 36vh;
+    background-color: #00abee41;
+   display: inline-flex;
+   padding: 10px;
+   margin-right: 10px;
+}
+
+.yoda{
+    width: 50%;
+    height: 36vh;
+    background-color: #00abee41;
+   display: inline-flex;
+margin-left: 10px;
+   padding: 10px;
+}
+
+
+.luke{
+    width: 50%;
+    height: 36vh;
+    background-color: #00abee41;
+   display: inline-flex;
+   padding: 10px;
+   margin-right: 10px;
+}
+
+.anakin{
+    width: 50%;
+    height: 36vh;
+    background-color: #00abee41;
+   display: inline-flex;
+margin-left: 10px;
+   padding: 10px;
+}
+
+.jeditext{
+display: block;
+text-align: center;
+font-family: Open Sans;
+color: #ffffff; 
+height: 100%;
+
+}
+
+.jeditext h2{
+    color:#ebd61f;
+    font-family: 'Nova Round', cursive;
+    font-size: 28px;
+    font-weight: 900;
+    padding-bottom: 10px ;
+}
+
+
+
+.kenobi  .jeditext h2{
+    color:#ebd61f;
+    font-family: 'Nova Round', cursive;
+    font-size: 28px;
+    font-weight: 900;
+    padding: 10px 10px 7px 18px;
+}
+
+.luke  .jeditext h2{
+    color:#ebd61f;
+    font-family: 'Nova Round', cursive;
+    font-size: 28px;
+    font-weight: 900;
+    padding: 10px 12px 7px 20px;
+}
+
+.yoda  .jeditext h2{
+    color:#ebd61f;
+    font-family: 'Nova Round', cursive;
+    font-size: 28px;
+    font-weight: 900;
+    padding: 10px 28px 7px 20px;
+}
+
+.anakin .jeditext h2{
+    color:#ebd61f;
+    font-family: 'Nova Round', cursive;
+    font-size: 28px;
+    font-weight: 900;
+    padding: 10px 20px 7px 12px;
+}
+
+.kenobi .jeditext p{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px ;
+    padding: 20px 20px 0px 28px;
+    margin-bottom: 30px;}
+
+
+.yoda .jeditext p{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px ;
+    padding: 20px 32px 0px 24px;
+    margin-bottom: 30px;}
+
+
+.luke .jeditext p{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px ;
+    padding: 20px 38px 0px 46px;
+    margin-bottom: 30px;
+}
+
+.anakin .jeditext p{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px ;
+    padding: 20px 20px 0px 12px;
+    margin-bottom: 30px;
+}
+
+
+ 
+
+
+
+.jedi img{
+    width: 350px;
+    height: auto;
+}
+
+.jedi1 img{
+    width: 350px;
+    height: auto;
+}
+
+
+
+/*JEDI */
+
+
+/* SITH */
+    .sith_inicio {
+        width: 100%;
+        height: 10vh;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .sith_inicio h2{
+        width: 100%;
+        font-family: 'Nova Round', cursive;
+        font-size: 45px;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        color: #d40000;
+        padding-top: 10px;
+    }
+    
+    .sith_inicio p{
+        font-family: 'Mate SC', serif;
+        font-size: 22px;
+        color: #ff9292;
+        display: flex;
+       text-align: center;
+    }
+
+    
+    
+    .sith{
+        width: 100%;
+        display: flex;
+        margin-top: 80px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .sith1{
+        width: 100%;
+        display: flex;
+        margin-top: 20px ;
+        margin-bottom: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    
+    .vader{
+        width: 50%;
+        height: 36vh;
+        background-color: #ee000041;
+       display: inline-flex;
+       padding: 10px;
+       margin-right: 10px;
+    }
+    
+    .sidious{
+        width: 50%;
+        height: 36vh;
+        background-color: #ee000041;
+       display: inline-flex;
+    margin-left: 10px;
+       padding: 10px;
+    }
+    
+    
+    .maul{
+        width: 50%;
+        height: 36vh;
+        background-color: #ee000041;
+       display: inline-flex;
+       padding: 10px;
+       margin-right: 10px;
+    }
+    
+    .dooken{
+        width: 50%;
+        height: 36vh;
+        background-color: #ee000041;
+       display: inline-flex;
+    margin-left: 10px;
+       padding: 10px;
+    }
+    
+    .sithtext{
+    display: block;
+    text-align: center;
+    font-family: 'Mate SC', serif;
+    color: #ffffff; 
+    height: 100%;
+    
+    }
+    
+    .vader  .sithtext h2{
+        color:#ebd61f;
+        font-family: 'Nova Round', cursive;
+        font-size: 28px;
+        font-weight: 900;
+        padding: 10px 10px 7px 18px;
+    }
+
+    .maul  .sithtext h2{
+        color:#ebd61f;
+        font-family: 'Nova Round', cursive;
+        font-size: 28px;
+        font-weight: 900;
+        padding: 10px 12px 7px 20px;
+    }
+
+    .sidious  .sithtext h2{
+        color:#ebd61f;
+        font-family: 'Nova Round', cursive;
+        font-size: 28px;
+        font-weight: 900;
+        padding: 10px 28px 7px 20px;
+    }
+
+    .dooken .sithtext h2{
+        color:#ebd61f;
+        font-family: 'Nova Round', cursive;
+        font-size: 28px;
+        font-weight: 900;
+        padding: 10px 20px 7px 12px;
+    }
+    
+    .vader .sithtext p{
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size: 16px ;
+        padding: 20px 10px 0px 18px;
+        margin-bottom: 30px;}
+    
+    
+    .sidious .sithtext p{
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size: 16px ;
+        padding: 20px 28px 0px 20px;
+        margin-bottom: 30px;}
+    
+    
+    .maul .sithtext p{
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size: 16px ;
+        padding: 20px 12px 0px 20px;
+        margin-bottom: 30px;
+    }
+    
+    .dooken .sithtext p{
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size: 16px ;
+        padding: 20px 20px 0px 12px;
+        margin-bottom: 30px;
+    }
+    
+    
+   
+
+    .sith img{
+        width: 350px;
+        height: auto;
+    }
+    
+    .sith1 img{
+        width: 350px;
+        height: auto;
+    } 
+    
+
+/* SITH
+
+
+
+
+/* classes para as imagens de fundo */
+.imagem__fundo1{
+     background-image: url(../images/fundos/fdsag.png);     
+ } 
+
+ .imagem__fundo2 {
+     background-image: url(../images//fundos/ordem_jedi.jpg);}
+     
+
+ .imagem__fundo3 {
+    background-image: url(../images//fundos/red.png) ;
+}
+
+ .cor__fundo1{
+    background-image: url(../images/fundos/lorido.png);
+ }
+
+ .cor__fundo2{
+    background-color: #ff0b0b;}
+
+.cor__{
+    background-color: #000000;
+}    
+
+ .headback{
+     background-image: url(../images/fundos/estrela.jpg);
+ }   
+
+
+ /* rodapé */
+ .footer {
+     width: 100%;
+     height: 150px;
+     color: aliceblue;
+     display: flex;
+     align-items: center;
+    justify-content: space-around;
+    }
+
+.footer h2 {
+     font-size: 27px;
+
+}
+
+.footer p {
+    font-size: 14px;
+
+}
+
+.redes_sociais_item{
+    color: aliceblue;
+    font-size: 22px;
+    margin-right: 8px;
+}
+
+.fa-twitter:hover{color: #00acee;}
+.fa-youtube:hover{color: #c4302b}
+.fa-twitch:hover{color: #6441a5}
+.fa-discord:hover{color: #7289da}
+.fa-instagram:hover{color: #3f729b}
+
+
+
+
+/* PAGINAS HEAD */
+
+.head{
+    margin: 40px;
+    height: auto;
+    background-color: #000000;
+}
+
+.head h2{
+    color: #ebd61f;
+    display: flex;
+    justify-content: center;
+    font-family: 'Mate SC', serif;
+    font-size: 62px;
+    font-weight: 500;
+    text-shadow: #ffffff 0px 0px 30px;
+    padding: 0px;
+}
+
+.head p{
+    color: #ffffff;
+    font-size: 23px;
+    display: flex;
+    text-align: center;
+    padding: 10px 40px 10px 40px;
+    font-family: 'Open Sans', sans-serif;   
+}
+
+.headimgp{
+    width: 60vw;
+    height: 50vh;
+    margin:10px 17vw 10px 17vw ;
+}
+
+.head h3{
+    display: flex;
+    justify-content: center;
+    color: #ff0000;
+    font-size: 50px;
+    font-family: 'Mate SC', serif;
+    padding-top: 30px;
+}
+/* PAGINAS HEAD */
+
+.ep1{
+    margin: 40px;
+    height: auto;
+ background-color: #000000;
+}
+
+.ep1 h2{
+    color: #ebd61f;
+    display: flex;
+    justify-content: center;
+    font-family: 'Mate SC', serif;
+    font-size: 62px;
+    font-weight: 500;
+    text-shadow: #ffffff 0px 0px 30px;
+    padding-top: 20px;
+}
+
+.ep2{
+    margin: 40px;
+    height: auto;
+ background-color: #000000;
+}
+
+.ep2 h2{
+    color: #ebd61f;
+    display: flex;
+    justify-content: center;
+    font-family: 'Mate SC', serif;
+    font-size: 62px;
+    font-weight: 500;
+    text-shadow: #ffffff 0px 0px 30px;
+    padding-top: 20px;
+}
+
+.ep3{
+    margin: 40px;
+    height: auto;
+ background-color: #000000;
+}
+
+.ep3 h2{
+    color: #ebd61f;
+    display: flex;
+    justify-content: center;
+    font-family: 'Mate SC', serif;
+    font-size: 62px;
+    font-weight: 500;
+    text-shadow: #ffffff 0px 0px 30px;
+    padding-top: 20px;
+}
+
+.fichatec{
+    display:inline-flex;
+}
+
+.fichatec img{
+    width: 40vw;
+height: 75vh;
+display: block;
+}
+
+.fichatec .p1{
+    color: #ffffff; 
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size:18px;
+    padding-top: 60px ;
+}
+
+.fichatec {
+    color: #ffffff; 
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size:18px;
+    padding-top: 60px ;
+}
+
+.textep1{
+padding-left: 30px;
+
+}
+
+.textep2{
+    padding-right: 30px;
+}
+
+.imp{
+    padding-right: 30px;
+    font-size: 15px;
+}
+
+
+.jed{
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+
+

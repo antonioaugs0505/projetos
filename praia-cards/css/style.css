@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("menu.css");
+@import url("main.css");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: rgb(255,214,155);
+    background: linear-gradient(49deg, rgba(255,214,155,1) 0%, rgba(224,250,241,1) 51%, rgba(0,172,255,1) 100%);
+}
+
+
+:root{
+    --branco: #fff;
+    --preto: #000;
+    --cor-um: #FFFBEB;
+    --cor-dois: #FA9884;
+    --cor-tres: #30A2FF;
+}

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #F585D1;
+    
+}
+
+figure{
+    background-color: #C63596;
+    border-radius: 0px 0px 20px 20px;
+    
+}
+
+.text h3{
+    font-family: 'Montserrat';
+font-weight: 400;
+font-size: 1.2rem;
+text-align: center;
+margin-top: 60px;
+}
+
+.text h4{
+    font-family: 'Montserrat';
+font-weight: 400;
+font-size: 1.2rem;
+text-align: center;
+color: #fff;
+}
+
+.text h4 span{
+    color:#C63596 ;
+    font-weight: 800;
+}
+
+.barra{
+    border-radius: 30px;
+    border: 2px solid  #C63596;
+    ;
+}
+
+.entrar, .cad{
+    text-decoration: none;
+    padding: 15px;
+    margin: 5px 30px;
+    background-color: #C63596;
+    border-radius: 30px;
+    border: 2px solid  #fff;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.entrar:hover, .cad:hover{
+    color: #F585D1;
+}

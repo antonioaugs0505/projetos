@@ -1,0 +1,16 @@
+.cor_fundo{
+    background-color: #0000008f;
+}
+
+
+.carousel-item img{
+    height: 90vh;
+}
+
+.margin{
+    margin: 30px auto;
+}
+
+.data-bs-slide{
+    color: black;
+}

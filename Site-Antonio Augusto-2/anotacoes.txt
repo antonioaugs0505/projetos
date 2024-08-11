@@ -1,0 +1,161 @@
+wireframe
+https://wireframe.cc/zAEChH
+remover os marcadores
+list-style:none
+.menu__principal ul { } formata apenas a ul dentro do elemento
+com class menu__principal
+tirar sublinhado ==> text-decorantion:none;
+
+css reset == simples mas funciona bem --USE EM TODO CSS
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+no flexbox ==> aplicamos a propriedade ao PAI
+
+seção 1 de conteúdo
+div com a classe container  tamanho que essa seção terá
+imagem de fundo = ocupar toda a tela
+texto + link posicionado a esquerda da tela
+
+a classe container ela será usada por outros elementos
+classe generalista = formatações mais comuns
+background-image ==> inserir uma imdem de fundo 
+imagem de fundo -- não tem interação - apenas preenche container
+por padrão imagem de fundo repete 
+background-repeat ==> no-repeat (não deixa a imagem repetir)
+background-size ==> tamanho da imagem de fundo 
+usar na maioria da vezes a opção cover
+background-position = define a posição da imagem de fundo
+na maioria das vezes ==> 50% (ponto central da imagem)
+TUDO ISSO SÓ SE APLICA A IMAGEM DE FUNDO == CSS
+QUANDO USAMOS A TAG <IMG> NADA DISSO SERVE
+
+vh / vw (v== viewport)
+viewport ==> a área de exibição de conteúdo do dispositivo que está acessando a página
+
+background-attachment: scroll;
+scroll da tela(rolagem) ==> padrão a imagem acompanhao scroll
+fixed ==> a imagem ficará fixa na tela enquanto acontecer o scroll
+
+
+
+
+
+
+
+<!-- fi  tabela -->
+        <div class="container tabela imagem__fundo3" id="container4">
+
+            <!-- Inicio tabela -->
+                    <table>
+            <!-- Primeira linha da tabela -->
+            <thead>
+            <th>Star Wars: Episódio IV - Uma Nova Esperança</th>
+            </thead>
+            
+            <!-- Primeira linha da tabela -->
+           <tbody>
+            <tr>
+            <td>Data de Lançamento</td>
+            <td>1977</td>
+            </tr>
+
+            <tr>
+            <td>Arrecadação</td>
+            <td>775,8 milhões de dólares</td>
+            </tr>
+
+            <tr>
+            <td>Direção</td>
+            <td>George Lucas</td>
+            </tr>
+
+            <tr>
+            <td>Elenco</td>
+            <td>Mark Hamil, Carrie Fisher, Harrison Ford</td>
+            </tr>
+
+            <tr>
+            <td>Star Wars: Episódio V – Império Contra-Ataca</td>
+            <td>1980</td>
+            <td>550,9 milhões de dólares</td>
+            </tr>
+
+            <tr>
+            <td>Star Wars: Episódio VI – Retorno de Jedi</td>
+            <td>1983</td>
+            <td>475,1 milhões de dólares</td>
+            </tr>
+            
+            </tr>
+            <td>Star Wars:  Episódio VII – Despertar da Força</td>
+            <td>2015</td>
+            <td>2,066 bilhões de dólares</td>
+            </tr>
+            
+            <tr>
+            <td>Star Wars: Episódio VII – Os Ultimos Jedi</td>
+            <td>2017</td>
+            <td>1,333 bilhão de dólares</td>
+            </tr>
+            
+            <tr>
+            <td>Star Wars: Episódio IX – Ascensão Skywalker</td>
+            <td>2019</td>
+            <td>1,074 bilhão de dólares</td>
+            </tr>
+           </tbody>
+
+        </table>
+<!-- Fim tabela -->
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+.tabela{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 22px;
+    background-color: #e9dede50;
+}
+
+.tabela table{
+    width: 60%;
+    border-collapse: collapse;
+
+}
+
+.tabela thead{
+ background-color:#e9dede50;
+ height: 80px;
+ margin-bottom: 10px;
+}
+
+ .tabela th .tabela td {
+     width: 20%;
+    height: 40px;
+     font-size: 20px;
+     text-align: center;
+    
+ }
+
+.tabela td{
+    font-size: 16px;
+    border-bottom: 1px solid #ffffff;
+    padding: 10px 0;
+    align-items: center;
+    text-align: center;
+}
